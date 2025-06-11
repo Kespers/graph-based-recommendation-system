@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper,openany,oneside]{book}
+
+\usepackage[a4paper,margin=2cm]{geometry}
+
+
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage{amsfonts}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[font=small,labelfont=bf,tableposition=top]{caption}
+
+\usepackage[verbose]{placeins}
+
+\usepackage{listings}
+\usepackage{courier}
+\lstset{
+       language=C++,
+       basicstyle=\footnotesize\ttfamily,
+       numbers=left,
+       numberstyle=\tiny,
+       numbersep=5pt,
+       tabsize=5,
+       extendedchars=true,
+       breaklines=true,
+       keywordstyle=\textbf,
+       stringstyle=\color{white}\ttfamily,
+       showspaces=false,
+       showtabs=false,
+       xleftmargin=17pt,
+       framexleftmargin=17pt,
+       framexrightmargin=5pt,
+       framexbottommargin=4pt,
+       showstringspaces=false,
+       escapeinside={(*@}{@*)}
+ }
+
+ \addto\captionsenglish{ \renewcommand{\lstlistingname}{Algorithm}}
+
+\setcounter{tocdepth}{3} \setcounter{secnumdepth}{3}
+
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{framed}
+
+\begin{document}
+
+\input{parts/header}
+\bibliographystyle{unsrt}
+\title{Minimum Weight Vertex Cover Problem}
+\author{Kevin Speranza}
+
+\tableofcontents
+
+\input{parts/chapter1}
+\input{parts/chapter2}
+\input{parts/chapter3}
+\input{parts/chapter4}
+\input{parts/footer}
+\newpage
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{bibliography}
+\end{document}
