@@ -1,6 +1,14 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Genetic Algorithms}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Implementation}{4}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Results}{5}{chapter.4}%
-\contentsline {chapter}{Bibliography}{7}{chapter*.2}%
+\contentsline {chapter}{\numberline {2}Dataset}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}MovieLens Dataset}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Costruzione della Rete Bipartita}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Engineering degli Attributi dei Nodi}{3}{subsection.2.1.2}%
+\contentsline {chapter}{\numberline {3}Implementazione}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}GraphSAGE}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Architettura del Modello}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Sperimentazione con i Livelli di Convoluzione}{6}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Generazione delle Raccomandazioni}{6}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Valutazioni}{6}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Results}{7}{chapter.4}%
+\contentsline {chapter}{Bibliography}{9}{chapter*.7}%
