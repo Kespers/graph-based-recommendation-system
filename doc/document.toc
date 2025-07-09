@@ -1,13 +1,31 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Introduzione}{2}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Dataset}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}MovieLens Dataset}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Costruzione della Rete Bipartita}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Engineering degli Attributi dei Nodi}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Engineering degli Attributi dei Nodi}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Setup training}{5}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Implementazione}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}GraphSAGE}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Architettura del Modello}{6}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sperimentazione}{6}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Generazione delle Raccomandazioni}{6}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Valutazioni}{6}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Results}{7}{chapter.4}%
+\contentsline {section}{\numberline {3.1}Intro GraphSAGE}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Architettura implementata}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Esperimenti}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Setup}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Generazione embedding}{8}{subsection.3.3.2}%
+\contentsline {paragraph}{Configurazione ottimale degli iperparametri}{11}{section*.21}%
+\contentsline {paragraph}{Prestazioni sul test set}{11}{section*.22}%
+\contentsline {subsection}{\numberline {3.3.3}Predizione rating}{11}{subsection.3.3.3}%
+\contentsline {paragraph}{Iper-parametri esplorati}{11}{section*.24}%
+\contentsline {paragraph}{Prestazioni validation set}{12}{section*.25}%
+\contentsline {paragraph}{Migliori iper-parametri trovati}{12}{section*.26}%
+\contentsline {paragraph}{Prestazioni test set}{12}{section*.27}%
+\contentsline {paragraph}{Iper-parametri esplorati}{12}{section*.30}%
+\contentsline {paragraph}{Prestazioni validation set}{12}{section*.31}%
+\contentsline {paragraph}{Migliori iper-parametri trovati}{13}{section*.32}%
+\contentsline {paragraph}{Prestazioni test set}{13}{section*.33}%
+\contentsline {section}{\numberline {3.4}Ulteriori valutazioni}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Proiezioni t-SNE}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Similarità film - film}{14}{subsection.3.4.2}%
+\contentsline {paragraph}{Esempio 1: Film di partenza - \textit {Toy Story (1995)}}{14}{section*.35}%
+\contentsline {paragraph}{Esempio 2: Film di partenza - \textit {Star Wars (1977)}}{14}{section*.36}%
+\contentsline {paragraph}{Osservazioni}{14}{section*.37}%
+\contentsline {chapter}{\numberline {4}Conclusioni}{15}{chapter.4}%

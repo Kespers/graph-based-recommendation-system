@@ -48,6 +48,20 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{framed}
+\usepackage{placeins}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{orange},
+  breaklines=true,
+  frame=single,
+  columns=fullflexible,
+  captionpos=b
+}
 
 \begin{document}
 
@@ -62,7 +76,6 @@
 \input{parts/chapter2}
 \input{parts/chapter3}
 \input{parts/chapter4}
-\input{parts/footer}
 \newpage
 \addcontentsline{toc}{chapter}{Bibliography}
 \end{document}
